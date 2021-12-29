@@ -1,0 +1,59 @@
+body,
+form,
+fieldset,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    
+    background-color: #b4e0ff;
+}
+
+#title{
+    margin: 1%;
+    font-family: 'Pushster', cursive;
+}
+
+.container {
+    display: flex;
+    padding: 1%;
+    /* width: 100%;
+    height: 100%; */
+}
+
+#markdown {
+  width: 100%;
+  height: 80vh;
+  padding:10px;
+  border-bottom-left-radius:10px;
+  border-top-left-radius:10px;
+}
+
+#output{
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    padding:10px;
+    width:100%;
+    height: 80vh;
+    background-color: #fff;
+}
+#parse{
+    background-color: #4dd9fc;
+}
+#parse p{
+    font-family: 'Pushster', cursive;
+    writing-mode:vertical-lr;
+    text-orientation: mixed;
+    font-size:2rem;
+}
